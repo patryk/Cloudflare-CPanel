@@ -11,7 +11,7 @@ jobs:
 
     runs-on: ubuntu-latest
     container:
-      image: centos:7
+      image: php:7.2-cli
 
     steps:
     - uses: actions/checkout@v2
